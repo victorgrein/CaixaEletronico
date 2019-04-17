@@ -1,0 +1,11 @@
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\bin\Debug\LoginTela].exe.config
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\bin\Debug\LoginTela].exe
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\bin\Debug\LoginTela].pdb
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela].csprojAssemblyReference.cache
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela_.AlterarSenha.resources
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela_.Form1.resources
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela_.Properties.Resources.resources
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela].csproj.GenerateResource.cache
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela].csproj.CoreCompileInputs.cache
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela].exe
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela].pdb
