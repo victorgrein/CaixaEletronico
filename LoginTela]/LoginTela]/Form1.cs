@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using TelaInicial;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -31,13 +32,23 @@ namespace LoginTela_
             da.Fill(dt);
             if (dt.Rows.Count > 0)
             {
-                System.Diagnostics.Process.Start("https://nubank.com.br/");
+                con.Close();
+                con.Open();
+                SqlCommand cmd2 = new SqlCommand("update ultimo_login set id =(select id from usuario where NomeUsuario=@nome)", con);
+                cmd2.Parameters.AddWithValue("@nome", userid);
+                cmd2.ExecuteNonQuery();
+                con.Close();
+
+                TelaInicial.TelaInicial telaInicial = new TelaInicial.TelaInicial();
+                telaInicial.Visible = true;
+                Visible = false;
             }
             else
             {
                 MessageBox.Show("Login ou senha inválidos!");
             }
             con.Close();
+
         }
 
         private void button1_Click(object sender, EventArgs e)

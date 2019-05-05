@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0127FB09-1D8F-43E4-93F7-141BC4647347}</ProjectGuid>
+    <ProjectGuid>{D3077E81-F53F-4845-B4DB-5BE4A3E39F41}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LoginTela_</RootNamespace>
-    <AssemblyName>LoginTela]</AssemblyName>
+    <RootNamespace>TelaInicial</RootNamespace>
+    <AssemblyName>TelaInicial</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,25 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlterarSenha.cs">
+    <Compile Include="TelaInicial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AlterarSenha.Designer.cs">
-      <DependentUpon>AlterarSenha.cs</DependentUpon>
+    <Compile Include="TelaInicial.Designer.cs">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="TelaInicialClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AlterarSenha.resx">
-      <DependentUpon>AlterarSenha.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="TelaSaldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaSaldo.Designer.cs">
+      <DependentUpon>TelaSaldo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TelaInicial.resx">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,8 +71,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TelaSaldo.resx">
+      <DependentUpon>TelaSaldo.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,18 +87,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Nubank_logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\b3e10719e28a67fd56f5a974c94ff1ce_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TelaInicial\TelaInicial.csproj">
-      <Project>{d3077e81-f53f-4845-b4db-5be4a3e39f41}</Project>
-      <Name>TelaInicial</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

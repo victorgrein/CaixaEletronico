@@ -1,0 +1,11 @@
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\bin\Debug\TelaInicial.exe.config
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\bin\Debug\TelaInicial.exe
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\bin\Debug\TelaInicial.pdb
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\obj\Debug\TelaInicial.csprojAssemblyReference.cache
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\obj\Debug\TelaInicial.TelaInicial.resources
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\obj\Debug\TelaInicial.Properties.Resources.resources
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\obj\Debug\TelaInicial.csproj.GenerateResource.cache
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\obj\Debug\TelaInicial.csproj.CoreCompileInputs.cache
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\obj\Debug\TelaInicial.exe
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\obj\Debug\TelaInicial.pdb
+C:\Users\victor.grein\source\repos\LoginTela]\TelaInicial\obj\Debug\TelaInicial.TelaSaldo.resources

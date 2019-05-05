@@ -9,3 +9,7 @@ C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela].cs
 C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela].csproj.CoreCompileInputs.cache
 C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela].exe
 C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela].pdb
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\bin\Debug\TelaInicial.exe
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\bin\Debug\TelaInicial.pdb
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\bin\Debug\TelaInicial.exe.config
+C:\Users\victor.grein\source\repos\LoginTela]\LoginTela]\obj\Debug\LoginTela].csproj.CopyComplete
